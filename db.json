@@ -1,0 +1,53 @@
+{
+  "profesores": [
+    {
+      "id": "w7ng2KqDi4o",
+      "nombre": "Ana",
+      "apellido": "Banana",
+      "edad": 30,
+      "materia": [
+        {
+          "nombre": "React"
+        },
+        {
+          "nombre": "Angular"
+        }
+      ]
+    }
+  ],
+  "alumnos": [
+    {
+      "id": "09R1R1m6dPg",
+      "nombre": "Juan",
+      "apellido": "Perez",
+      "promedio": 8.5
+    },
+    {
+      "id": "KBabVrg8oaI",
+      "nombre": "María",
+      "apellido": "Gómez",
+      "promedio": 9
+    }
+  ],
+  "cursos": [
+    {
+      "id": "xi1PHuR4-m8",
+      "nombre": "NodeJS",
+      "duracion": "3 meses",
+      "dificultad": "Media"
+    },
+    {
+      "id": "g7JD7mVSEas",
+      "nombre": "React",
+      "duracion": "2 meses",
+      "dificultad": "Baja"
+    },
+    {
+      "id": "NnEc_gSCggo",
+      "nombre": "Angular",
+      "duracion": "4 meses",
+      "dificultad": "Media"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

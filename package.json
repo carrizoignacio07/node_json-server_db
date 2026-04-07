@@ -1,0 +1,15 @@
+{
+  "name": "proyecto1",
+  "version": "0.0.1",
+  "description": "Mi primer proyecto en NodeJS",
+  "license": "ISC",
+  "author": "Ignacio Carrizo",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.15"
+  }
+}
